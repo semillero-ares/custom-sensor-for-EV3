@@ -5,7 +5,15 @@ pip install mkdocs
 mkdocs new .
 ```
 
-## For main branch
+para trabajar de manera más comoda usaremos:
+
+
+```
+mkdocs serve --livereload
+```
+
+## Para la rama **main**
+
 ```bash
 git init
 git add .
@@ -15,7 +23,8 @@ git remote add origin https://github.com/semillero-ares/custom-sensor-for-EV3.gi
 git push -u origin main
 ```
 
-## For mkdocs branch
+## Para la rama **docs**
+
 ```bash
 git init
 git checkout --orphan docs
@@ -25,7 +34,8 @@ git remote add origin https://github.com/semillero-ares/custom-sensor-for-EV3.gi
 git push -u origin docs
 ```
 
-## For gh-pages
+## Para la rama **gh-pages**
+
 ```
 mkdocs gh-deploy
 ```

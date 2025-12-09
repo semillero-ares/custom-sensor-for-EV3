@@ -1,0 +1,21 @@
+site_name: Tutorial de sensor personalizado para EV3
+site_description: Aprende a crear y utilizar un sensor personalizado para LEGO Mindstorms EV3
+site_author: Semillero ARES
+copyright: © 2025, Davinson Castaño Cano para el Semillero ARES
+repo_url: https://github.com/semillero-ares/custom-sensor-for-EV3
+site_url: https://semillero-ares.github.io/custom-sensor-for-EV3/
+theme:
+  name: readthedocs
+  logo: img/logo/ares.png
+  favicon: img/favicon/favicon.ico
+  include_homepage_in_sidebar: true
+  locale: es
+extra_css:
+  - css/extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+extra_javascript:
+  - js/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+markdown_extensions:
+  - attr_list
