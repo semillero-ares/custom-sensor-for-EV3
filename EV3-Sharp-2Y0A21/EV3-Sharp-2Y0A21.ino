@@ -1,8 +1,8 @@
 #include "EV3-UART-EmulationHard.h"
 #define SENSOR A0
-#define VALA  0.790373361
-#define VALB 132223.008
-#define VALC 1.159600909
+#define VALA 16.4566026
+#define VALB 301196.7188 
+#define VALC 1.295989659
 
 EV3UARTEmulation sensor(&Serial, 91, 38400);
 
